@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 2rem;
+        }
+        .art-item {
+            width: 30%;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .art-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .art-item h3 {
+            margin: 1rem;
+        }
+        .art-item p {
+            margin: 0 1rem 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Art Collection</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="gallery" class="gallery">
+        <!-- Example art item -->
+        <div class="art-item">
+            <img src="artwork1.jpg" alt="Artwork 1">
+            <h3>Artwork Title 1</h3>
+            <p><strong>Artist:</strong> John Doe</p>
+            <p><strong>Medium:</strong> Oil on Canvas</p>
+            <p><strong>Description:</strong> A beautiful landscape painting.</p>
+        </div>
+
+        <div class="art-item">
+            <img src="artwork2.jpg" alt="Artwork 2">
+            <h3>Artwork Title 2</h3>
+            <p><strong>Artist:</strong> Jane Smith</p>
+            <p><strong>Medium:</strong> Watercolor</p>
+            <p><strong>Description:</strong> An abstract interpretation of nature.</p>
+        </div>
+        
+        <!-- Add more artwork items here -->
+    </section>
+
+    <section id="contact">
+        <h2 style="text-align: center; padding: 1rem;">Contact</h2>
+        <p style="text-align: center; padding: 0 2rem;">For inquiries about specific artworks or to connect, please email us at <a href="mailto:info@myartcollection.com">info@myartcollection.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Art Collection. All rights reserved.</p>
+    </footer>
+</body>
+</html>
